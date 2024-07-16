@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GG/mlruns/0/a88000e27f124585b2ac6457cdd70ef3/artifacts
+end_time: 1721122775260
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a88000e27f124585b2ac6457cdd70ef3
+run_name: chill-rat-867
+run_uuid: a88000e27f124585b2ac6457cdd70ef3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721122727846
+status: 3
+tags: []
+user_id: UTKARSH

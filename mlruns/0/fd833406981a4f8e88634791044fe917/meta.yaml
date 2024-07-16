@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GG/mlruns/0/fd833406981a4f8e88634791044fe917/artifacts
+end_time: 1721058088035
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd833406981a4f8e88634791044fe917
+run_name: nervous-deer-850
+run_uuid: fd833406981a4f8e88634791044fe917
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721058075073
+status: 3
+tags: []
+user_id: UTKARSH

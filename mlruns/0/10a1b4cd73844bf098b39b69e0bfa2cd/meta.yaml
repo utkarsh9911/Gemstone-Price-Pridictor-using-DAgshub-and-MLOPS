@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GG/mlruns/0/10a1b4cd73844bf098b39b69e0bfa2cd/artifacts
+end_time: 1721057209144
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 10a1b4cd73844bf098b39b69e0bfa2cd
+run_name: languid-conch-514
+run_uuid: 10a1b4cd73844bf098b39b69e0bfa2cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721057195616
+status: 3
+tags: []
+user_id: UTKARSH
