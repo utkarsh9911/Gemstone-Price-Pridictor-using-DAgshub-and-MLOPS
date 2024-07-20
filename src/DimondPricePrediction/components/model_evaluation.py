@@ -4,6 +4,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from urllib.parse import urlparse
 import mlflow
 import mlflow.sklearn
+import dagshub
 import numpy as np
 import pickle
 from src.DimondPricePrediction.utils.utils import load_object
@@ -19,6 +20,8 @@ warnings.filterwarnings("ignore", message="Setuptools is replacing distutils")
 class ModelEvaluation:
     def __init__(self):
         logging.info("Evaluation Started")
+        # Initialize DAGsHub
+        dagshub.init(repo_owner='utkarsh9911', repo_name='Gemstone-Price-Pridictor-using-DAgshub-and-MLOPS', mlflow=True)
 
     def eval_metrics(self,actual,pred):
         rmse = np.sqrt(mean_squared_error(actual,pred))

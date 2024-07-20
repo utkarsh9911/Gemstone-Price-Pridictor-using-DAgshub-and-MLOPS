@@ -3,6 +3,8 @@ import json
 from textwrap import dedent
 import pendulum
 from airflow import DAG
+import numpy as np
+import os
 from airflow.operators.python import PythonOperator
 from src.DimondPricePrediction.pipelines.training_pipeline import TrainingPipeline
 
@@ -89,6 +91,5 @@ with DAG(
         task_id="push_data_to_s3",
         python_callable=push_data_to_s3
         )
-
 
 data_ingestion_task >> data_transform_task >> model_trainer_task >> push_data_to_s3_task

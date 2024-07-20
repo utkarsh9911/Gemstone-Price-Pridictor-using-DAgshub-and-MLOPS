@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/GG/mlruns/0/9518d8cefd9644a3b4ea5947485a7714/artifacts
+end_time: 1721127279394
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9518d8cefd9644a3b4ea5947485a7714
+run_name: bright-doe-746
+run_uuid: 9518d8cefd9644a3b4ea5947485a7714
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1721127235883
+status: 3
+tags: []
+user_id: UTKARSH

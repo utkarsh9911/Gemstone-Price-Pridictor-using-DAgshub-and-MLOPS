@@ -13,7 +13,7 @@ with DAG(
     # [END default_args]
     description='gemstone batch prediction',
     schedule_interval="@weekly", # here you can test based on hour or mints but make sure here you container is up and running
-    start_date=pendulum.datetime(2023,7, 16, tz="UTC"),
+    start_date=pendulum.datetime(2024,7, 16, tz="UTC"),
     catchup=False,
     tags=['example'],
 ) as dag:
@@ -22,7 +22,7 @@ with DAG(
         input_dir = "/app/input_files"
         #creating directory
         os.makedirs(input_dir,exist_ok=True)
-        os.system(f"aws s3 sync s3://{bucket_name}/inbox {config.inbox_dir}")
+        os.system(f"aws s3 sync s3://{bucket_name}/inbox {config_dir}")
 
     def batch_prediction(**kwargs):
         config = BatchPredictionConfig()
