@@ -47,3 +47,12 @@ You are hired by a company Gem Stones Co Ltd. You are provided with the dataset 
 ```bash
   python run app.py
 ```
+## MLFlow & DagsHub
+Copy the values from DagsHub > Repo > Remote > Experiments
+
+```bash
+set MLFLOW_TRACKING_URI=<>
+set MLFLOW_TRACKING_USERNAME=<>
+set MLFLOW_TRACKING_PASSWORD<>
+```
+If the above are not set, then ML Experiments gets registered in local system else gets published to DagsHub
